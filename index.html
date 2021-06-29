@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <div id="nav-container">
+            <nav>
+                <div class="nav-section mobile">
+                    <svg viewBox="0 0 100 80" width="40" height="40">
+                        <rect y="18" width="43" height="5" fill=#70757A></rect>
+                        <rect y="32" width="43" height="5" fill=#70757A></rect >
+                        <rect y="46" width="43" height="5" fill=#70757A></rect>
+                      </svg>
+            
+                      <a href="">ALL</a>
+                      <a href="">IMAGES</a>
+                </div>
+    
+                <div class="nav-section pc">
+                      <a href="">Gmail</a>
+                      <a href="">Images</a>
+                </div>
+        
+                <div class= "nav-section">
+                    <div class="dots-icon">
+                        <svg class="gb_Ve" fill=#70757A focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                    </div>
+
+                    <div onclick="myFunction()" class="user">
+                        <img id="user" src="/images/user.jpg" alt="">
+                    </div>
+
+                    
+                    <!-- I will add functionality <div id="user-dropwdown">
+                        <img src="/images/userhd.jpg" alt="">
+
+                        <h2>Luis Miguel Carrión Sanamaría</h2>
+                        <h3>scml3023@gmail.com</h3>
+
+                        <a href="">Manage your Google Account</a>
+                    </div> -->
+
+                </div>
+            </nav>
+        </div>
+        
+    
+        <div id="google-main">
+            <img id="google-logo" src="/images/logo.png" alt="Google">
+    
+            <div id="search-bar">
+                <input id="search-bar-input" type="search">
+
+                <svg id="google-forget" fill=#9AA0A6 focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+
+                <svg id="google-mic" fill=#80868B xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="mic"><rect width="24" height="24" opacity="0"/><path d="M12 15a4 4 0 0 0 4-4V6a4 4 0 0 0-8 0v5a4 4 0 0 0 4 4z"/><path d="M19 11a1 1 0 0 0-2 0 5 5 0 0 1-10 0 1 1 0 0 0-2 0 7 7 0 0 0 6 6.92V20H8.89a.89.89 0 0 0-.89.89v.22a.89.89 0 0 0 .89.89h6.22a.89.89 0 0 0 .89-.89v-.22a.89.89 0 0 0-.89-.89H13v-2.08A7 7 0 0 0 19 11z"/></g></g></svg>
+    
+            </div>
+
+            <div class="google-main-btns pc">
+                <button>Google Search</button>
+                <button>I'm feeling lucky</button>
+
+            </div>
+
+
+            <P>Goggle offered in: <a href="">Español (Latinoamérica)</a></P>
+        </div>
+    </main>
+
+    <footer>
+
+        <p>Venezuela</p>
+ 
+        <div class="separator"></div>
+ 
+        <div class="links-container">
+         <div class="links">
+             <a class="mobile" href="">Settings</a>
+             <a href="">Privacy</a>
+             <a href="">Terms</a>
+             <a class="pc" href="">Settings</a>
+            </div>
+     
+            <div class="links">
+             <a class="pc" href="">About</a>
+             <a href="">Advertising</a>
+             <a href="">Business</a>
+             <a class="mobile" href="">About</a>
+             <a class="pc" href="">How Search Works</a>
+            </div>
+        </div>
+ 
+ 
+ 
+    </footer>
+
+</body>
+</html>
